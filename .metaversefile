@@ -1,7 +1,14 @@
 {
   "name": "lisk",
   "start_url": "lisk_anim_v1_texta.glb",
-  "components": {
-    "activate": true
-  }
+  "components": [
+    {
+      "key": "pet",
+      "value": {
+        "idleAnimation": "idle",
+        "walkAnimation": "flying",
+        "runAnimation": ""
+      }
+    }
+  ]
 }
