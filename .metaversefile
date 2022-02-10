@@ -1,0 +1,7 @@
+{
+  "name": "lisk",
+  "start_url": "index.js",
+  "components": {
+    "activate": true
+  }
+}
