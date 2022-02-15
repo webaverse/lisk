@@ -1,6 +1,6 @@
 {
   "name": "lisk",
-  "start_url": "lisk_anim_v1_texta.glb",
+  "start_url": "lisk_export.glb",
   "components": [
     {
       "key": "pet",
