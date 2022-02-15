@@ -5,7 +5,7 @@
     {
       "key": "pet",
       "value": {
-        "idleAnimation": "idle",
+        "idleAnimation": "lisk_idle_move",
         "walkAnimation": "flying",
         "runAnimation": ""
       }
