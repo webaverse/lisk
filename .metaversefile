@@ -1,14 +1,4 @@
 {
   "name": "lisk",
-  "start_url": "lisk_export.glb",
-  "components": [
-    {
-      "key": "pet",
-      "value": {
-        "idleAnimation": "lisk_idle_move",
-        "walkAnimation": "flying",
-        "runAnimation": ""
-      }
-    }
-  ]
+  "start_url": "index.js"
 }
