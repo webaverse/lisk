@@ -45,7 +45,7 @@ export default e => {
     lisk = await metaversefile.load(`${baseUrl}lisk_animation_v3_texta.glb`);
     lisk.frustumCulled = false;
     app.add(lisk);
-    window.lisk = lisk;
+    // window.lisk = lisk;
     
     mixer = new THREE.AnimationMixer(lisk);
     for (const clip of lisk.glb.animations) {
