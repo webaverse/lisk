@@ -42,7 +42,9 @@ export default e => {
   const speed = 0.03;
   const angularSpeed = 0.02;
   (async () => {
-    lisk = await metaversefile.load(`${baseUrl}lisk_animation_v3_texta.glb`);
+    lisk = await metaversefile.createAppAsync({
+      start_url: `${baseUrl}lisk_animation_v3_texta.glb`,
+    });
     lisk.frustumCulled = false;
     app.add(lisk);
     // window.lisk = lisk;
