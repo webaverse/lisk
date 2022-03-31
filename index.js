@@ -27,14 +27,14 @@ export default e => {
   // const Text = useTextInternal();
   const scene = useScene();
 
-  const mesh = new THREE.Mesh(
+  /* const mesh = new THREE.Mesh(
     new THREE.BoxBufferGeometry(1, 1, 1),
     new THREE.MeshBasicMaterial({color: 0x00ff00})
   );
   mesh.position.copy(app.position);
   mesh.quaternion.copy(app.quaternion);
   mesh.updateMatrixWorld();
-  scene.add(mesh);
+  scene.add(mesh); */
 
   let lisk = null;
   let mixer = null;
